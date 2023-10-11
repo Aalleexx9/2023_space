@@ -26,7 +26,7 @@ for i in range(3, 0 ,-1):
     display.blit(text, (screen_width / 2 - text.get_width()/2, screen_height / 2 - text.get_height()/2))
     pg.display.flip()
     display.blit(bg_img, (0, 0))
-    pg.time.wait(1000)
+    pg.time.wait(1500)
 text = sys_font.render('start', True, 'white')
 display.blit(text, (screen_width / 2 - text.get_width()/2, screen_height / 2 - text.get_height()/2))
 pg.display.flip()
